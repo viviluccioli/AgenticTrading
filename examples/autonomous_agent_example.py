@@ -13,7 +13,7 @@ import sys
 import os
 
 # Add project path for imports
-sys.path.append('/Users/lijifeng/Documents/AI_agent/FinAgent-Orchestration')
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 async def test_autonomous_agent():
     """Test the complete workflow of the autonomous agent"""
