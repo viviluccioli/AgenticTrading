@@ -1,7 +1,7 @@
 """
 FinAgent Orchestration — Live Trading Dashboard
 ================================================
-Run with:  streamlit run dashboard.py
+Run with:  streamlit run streamlit_app.py
 """
 import sys
 import os
